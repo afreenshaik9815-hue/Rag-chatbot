@@ -1,0 +1,28 @@
+    pdf file
+        |
+        v
+extract text from pdf
+        |
+        v
+    split into chunks
+        |
+        v
+Generate the embeddings
+        |
+        v
+    store in FAISS
+        |
+        v
+    user question
+        |
+        v
+similarity  search
+        |
+        v
+    relevant chunks
+        |
+        v
+    send to LLM
+        |
+        v
+    output
